@@ -1,0 +1,79 @@
+form {
+	width: 400px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 24px;
+	color: #000;
+}
+
+.form__action {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form__item {
+	display: flex;
+	flex-direction: column;
+}
+
+.add-new-btn {
+	background: none;
+	border: none;
+	color: green;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.user-list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.user-item {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.input-field {
+	width: 150px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.add-after-btn {
+	background: none;
+	border: none;
+	color: blue;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.delete-btn {
+	background: none;
+	border: none;
+	color: red;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.save-changes-btn {
+	margin-top: 20px;
+	width: 100%;
+	padding: 10px;
+	background-color: #00a400;
+	color: white;
+	border: none;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+.error {
+	color: red;
+	font-size: 12px;
+}
